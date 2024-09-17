@@ -7,7 +7,6 @@ def get_article(n):
     # 存储结果
     results = []
 
-    # 获取前700条结果
     for i in range(n):
         try:
             article = next(search_query)
