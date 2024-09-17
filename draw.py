@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 if __name__ == '__main__':
 
     # 读取CSV文件
-    df = pd.read_csv('../../../github/Geothermal-Artificial-Intelligence/data/scholar_results_700.csv')
+    df = pd.read_csv('../../../github/Geothermal-Artificial-Intelligence/data/scholar_results_573.csv')
 
     # 选取前573条数据
     df = df.head(573)

@@ -17,7 +17,7 @@ if __name__ == '__main__':
     nlp = spacy.load('en_core_web_sm')
 
     # 读取CSV文件
-    df = pd.read_csv('../../../github/Geothermal-Artificial-Intelligence/data/scholar_results_700.csv')
+    df = pd.read_csv('../../../github/Geothermal-Artificial-Intelligence/data/scholar_results_573.csv')
 
     # 提取title列
     titles = df['abstract'].dropna()

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
     # 读取CSV文件
-    df = pd.read_csv('../../../github/Geothermal-Artificial-Intelligence/data/scholar_results_700.csv')
+    df = pd.read_csv('../../../github/Geothermal-Artificial-Intelligence/data/scholar_results_573.csv')
 
     # 提取abstract内容
     text = ' '.join(df['abstract'].dropna())
